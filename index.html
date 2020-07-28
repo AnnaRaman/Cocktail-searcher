@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>In the mix.</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#drinks">Drinks</a></li>
+            <li><a href="#random">Lucky Dip</a></li>
+            <li><a href="health">Health</a></li>
+        </ul>
+    </div>
+
+    
+
+<section id="home">
+<div class="landingPage">
+  <div class="animate__animated animate__headShake">
+<h1 class="logo">
+<div class="letter"> in the mix.</div>
+</h1>
+</div>
+<div id="downarrow"><a href="#drinks"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></div>
+</div> 
+
+
+
+</section>
+
+<section id="drinks">
+  <div id="drinkStyle">
+    <h2 class="pageTitles">Drinks list 🍸</h2>
+  <div class="searchBar">
+    <input id="search" type="text" placeholder="Search cocktails">
+    </div>
+  </div>
+  <div id='count'></div>
+<div class="container">
+<input type="text"> 
+</div> 
+</section>
+
+
+
+<section id="random">
+  <div id="luckyDipStyle">
+  <h2 class="pageTitles">Lucky Dip 🎲</h2>
+  </div>
+
+
+<div class="center">
+  <div class="card-main">
+    <div class="card-img">
+    <img id="gif-drink" src="cocktail.gif">
+    <div class="show-random-drink">
+    </div>
+     <div class="card-desc" onClick="addClass()">
+    
+    </div>
+  </div>
+  <div id="card-info" class="card-data" onClick="removeClass()"> 
+
+    <br><br>
+  </div>
+</div>
+  <div class="selectButton"> <p class="button-text"> Randomize! </p></div>
+  </div>
+
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- partial -->
+<script  src="script.js"></script>
+
+</body>
+</html>
